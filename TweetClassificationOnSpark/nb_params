@@ -1,0 +1,66 @@
+hashignTF = 4000
+impurity='gini'
+maxDepth=10
+maxBins=100
+Train accuracy=0.6383
+Test accuracy=0.65460.6267
+
+
+hashignTF = 4000
+impurity='gini'
+maxDepth=25
+maxBins=100
+Train accuracy=0.6951
+Test accuracy=0.6825
+
+
+hashignTF = 4000
+impurity='gini'
+maxDepth=50
+maxBins=100
+Train accuracy=
+Test accuracy=
+java.lang.IllegalArgumentException: requirement failed: DecisionTree currently only supports maxDepth <= 30, but was given maxDepth = 50.
+
+hashignTF = 4000
+impurity='gini'
+maxDepth=30
+maxBins=100
+Train accuracy= 0.7099
+Test accuracy= 0.7019
+
+
+
+hashignTF = 4000
+impurity='entropy'
+maxDepth=10
+maxBins=100
+Train accuracy=0.6283
+Test accuracy=0.6267
+
+
+hashignTF = 4000
+impurity='entropy'
+maxDepth=25
+maxBins=100
+Train accuracy=0.6917
+Test accuracy=0.6741
+
+
+hashignTF = 4000
+impurity='entropy'
+maxDepth=50
+maxBins=100
+Train accuracy=
+Test accuracy=
+java.lang.IllegalArgumentException: requirement failed: DecisionTree currently only supports maxDepth <= 30, but was given maxDepth = 50.
+
+
+hashignTF = 4000
+impurity='entropy'
+maxDepth=30
+maxBins=100
+Train accuracy=0.7059
+Test accuracy=0.688
+
+
